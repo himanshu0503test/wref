@@ -12,7 +12,6 @@ group :development do
   gem "highline", "~> 1.6.21"
   gem "weakling"
   gem "ref"
-  gem 'nokogiri', '~> 1.5.10'
 end
 
 gem "codeclimate-test-reporter", group: :test, require: nil
