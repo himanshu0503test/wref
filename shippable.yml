@@ -1,12 +1,11 @@
 language: ruby
 build_image: drydock/u12rub:tip
 rvm:
-  - ruby-head
-  - ruby-2.1-head
-  - ruby-2.0-head
-  - ruby-1.9.3-head
-  - ruby-1.9.2-head
-  - jruby-head
+  - ruby-2.1
+  - ruby-2.0
+  - ruby-1.9.3
+  - ruby-1.9.2
+  - jruby-1.7
 script:
   - CODECLIMATE_REPO_TOKEN=23d002ad9b86687a067e6bbc81320cd979ffad756d1be69ca4e24c1038ee19a6 bundle exec rspec
 notifications:
