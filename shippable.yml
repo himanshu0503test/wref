@@ -1,5 +1,5 @@
 language: ruby
-build_image: drydock/u12rub:tip
+build_image: drydock/u14rub:tip
 rvm:
   - ruby-head
   - ruby-2.1-head
